@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZHKFeedback"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "用户反馈"
 
   # This description is used to generate tags and improve search results.
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'Masonry'
 
 end
