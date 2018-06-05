@@ -9,7 +9,7 @@
 #import "ZHKFeedbackViewController.h"
 #import "ZHKFeedbackMacros.h"
 #import "ZHKFeedbackTextView.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 #define PADDING 15.0
 #define TEXT_VIEW_HEIGHT 150.0
