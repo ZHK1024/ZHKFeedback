@@ -30,7 +30,7 @@
 		24F14B3B20C668E80097C154 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24F14B3C20C668E80097C154 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24F14B3D20C668E80097C154 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24F14B3E20C668E80097C154 /* ZHKFeedback.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZHKFeedback.podspec; sourceTree = SOURCE_ROOT; };
+		24F14B3E20C668E80097C154 /* ZHKFeedback.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.perl; fileEncoding = 4; path = ZHKFeedback.podspec; sourceTree = SOURCE_ROOT; };
 		24F14B3F20C668E80097C154 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		24F14B4920C668FD0097C154 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		24F14B4A20C668FD0097C154 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
