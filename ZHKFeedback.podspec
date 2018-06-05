@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    用户反馈模块.
+                    用户反馈模块 UI 界面.
                    DESC
 
   s.homepage     = "https://github.com/ZHK1024/ZHKFeedback"
@@ -54,8 +54,8 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "zhk" => "389914070@qq.com" }
-  # Or just: s.author    = "tongjunfeng"
-  # s.authors            = { "tongjunfeng" => "tongjunfeng@weiqianjin.cn" }
+  # Or just: s.author    = "zhk"
+  # s.authors            = { "zhk" => "389914070@qq.com" }
   # s.social_media_url   = "http://twitter.com/tongjunfeng"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
