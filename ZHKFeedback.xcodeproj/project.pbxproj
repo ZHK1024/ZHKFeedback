@@ -16,10 +16,14 @@
 		24F14B4620C668E80097C154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F14B3D20C668E80097C154 /* ViewController.m */; };
 		24F14B4720C668E80097C154 /* ZHKFeedback.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 24F14B3E20C668E80097C154 /* ZHKFeedback.podspec */; };
 		24F14B4820C668E80097C154 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 24F14B3F20C668E80097C154 /* README.md */; };
-		24F14B4B20C668FD0097C154 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F14B4A20C668FD0097C154 /* AViewController.m */; };
+		24FE363F20C67490009B7D2B /* ZHKFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FE363E20C67490009B7D2B /* ZHKFeedbackViewController.m */; };
+		24FE364220C674D0009B7D2B /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FE364120C674D0009B7D2B /* FeedbackViewController.m */; };
+		24FE364520C67625009B7D2B /* ZHKFeedbackTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FE364420C67625009B7D2B /* ZHKFeedbackTextView.m */; };
+		B058BFA60CA5374936EC5042 /* libPods-ZHKFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EC773A8CC16A9DF41ECAAD /* libPods-ZHKFeedback.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12EC773A8CC16A9DF41ECAAD /* libPods-ZHKFeedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHKFeedback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F14B0520C6636E0097C154 /* ZHKFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHKFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F14B3320C668E80097C154 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24F14B3420C668E80097C154 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,8 +36,15 @@
 		24F14B3D20C668E80097C154 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24F14B3E20C668E80097C154 /* ZHKFeedback.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.perl; fileEncoding = 4; path = ZHKFeedback.podspec; sourceTree = SOURCE_ROOT; };
 		24F14B3F20C668E80097C154 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		24F14B4920C668FD0097C154 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		24F14B4A20C668FD0097C154 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		24FE363D20C67490009B7D2B /* ZHKFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHKFeedbackViewController.h; sourceTree = "<group>"; };
+		24FE363E20C67490009B7D2B /* ZHKFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHKFeedbackViewController.m; sourceTree = "<group>"; };
+		24FE364020C674D0009B7D2B /* FeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		24FE364120C674D0009B7D2B /* FeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		24FE364320C67625009B7D2B /* ZHKFeedbackTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHKFeedbackTextView.h; sourceTree = "<group>"; };
+		24FE364420C67625009B7D2B /* ZHKFeedbackTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHKFeedbackTextView.m; sourceTree = "<group>"; };
+		24FE364620C67A0B009B7D2B /* ZHKFeedbackMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHKFeedbackMacros.h; sourceTree = "<group>"; };
+		C379CA055BC7EB6B09DCA6C9 /* Pods-ZHKFeedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKFeedback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKFeedback/Pods-ZHKFeedback.debug.xcconfig"; sourceTree = "<group>"; };
+		E73BDC59BC57D67EE2BA3DD4 /* Pods-ZHKFeedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHKFeedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHKFeedback/Pods-ZHKFeedback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B058BFA60CA5374936EC5042 /* libPods-ZHKFeedback.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +64,8 @@
 			children = (
 				24F14B0720C6636E0097C154 /* ZHKFeedback */,
 				24F14B0620C6636E0097C154 /* Products */,
+				79DE6708BF325BF6E117A618 /* Pods */,
+				AE3517A9856BA5DB814786DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +91,11 @@
 		24F14B3120C668E80097C154 /* ZHKFeedback */ = {
 			isa = PBXGroup;
 			children = (
-				24F14B4920C668FD0097C154 /* AViewController.h */,
-				24F14B4A20C668FD0097C154 /* AViewController.m */,
+				24FE364620C67A0B009B7D2B /* ZHKFeedbackMacros.h */,
+				24FE363D20C67490009B7D2B /* ZHKFeedbackViewController.h */,
+				24FE363E20C67490009B7D2B /* ZHKFeedbackViewController.m */,
+				24FE364320C67625009B7D2B /* ZHKFeedbackTextView.h */,
+				24FE364420C67625009B7D2B /* ZHKFeedbackTextView.m */,
 			);
 			name = ZHKFeedback;
 			sourceTree = "<group>";
@@ -95,9 +112,28 @@
 				24F14B3B20C668E80097C154 /* main.m */,
 				24F14B3C20C668E80097C154 /* ViewController.h */,
 				24F14B3D20C668E80097C154 /* ViewController.m */,
+				24FE364020C674D0009B7D2B /* FeedbackViewController.h */,
+				24FE364120C674D0009B7D2B /* FeedbackViewController.m */,
 			);
 			path = Example;
 			sourceTree = SOURCE_ROOT;
+		};
+		79DE6708BF325BF6E117A618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C379CA055BC7EB6B09DCA6C9 /* Pods-ZHKFeedback.debug.xcconfig */,
+				E73BDC59BC57D67EE2BA3DD4 /* Pods-ZHKFeedback.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE3517A9856BA5DB814786DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12EC773A8CC16A9DF41ECAAD /* libPods-ZHKFeedback.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -106,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F14B1B20C6636E0097C154 /* Build configuration list for PBXNativeTarget "ZHKFeedback" */;
 			buildPhases = (
+				EC839AC1ED134B9E5DB2EB92 /* [CP] Check Pods Manifest.lock */,
 				24F14B0120C6636E0097C154 /* Sources */,
 				24F14B0220C6636E0097C154 /* Frameworks */,
 				24F14B0320C6636E0097C154 /* Resources */,
+				C8B8491AED671DE74E3565B2 /* [CP] Embed Pods Frameworks */,
+				96B70930AAEFCFE6A0E0AB7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,15 +207,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96B70930AAEFCFE6A0E0AB7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHKFeedback/Pods-ZHKFeedback-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B8491AED671DE74E3565B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHKFeedback/Pods-ZHKFeedback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC839AC1ED134B9E5DB2EB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24F14B0120C6636E0097C154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F14B4B20C668FD0097C154 /* AViewController.m in Sources */,
 				24F14B4620C668E80097C154 /* ViewController.m in Sources */,
 				24F14B4520C668E80097C154 /* main.m in Sources */,
+				24FE364520C67625009B7D2B /* ZHKFeedbackTextView.m in Sources */,
+				24FE364220C674D0009B7D2B /* FeedbackViewController.m in Sources */,
 				24F14B4020C668E80097C154 /* AppDelegate.m in Sources */,
+				24FE363F20C67490009B7D2B /* ZHKFeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +397,7 @@
 		};
 		24F14B1C20C6636E0097C154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C379CA055BC7EB6B09DCA6C9 /* Pods-ZHKFeedback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +413,7 @@
 		};
 		24F14B1D20C6636E0097C154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73BDC59BC57D67EE2BA3DD4 /* Pods-ZHKFeedback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

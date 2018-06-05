@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FeedbackViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    self.navigationController.navigationBar.translucent = NO;
 }
 
 
@@ -25,5 +27,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)feedback:(id)sender {
+    FeedbackViewController *feedbackVC = [[FeedbackViewController alloc] init];
+    [self.navigationController pushViewController:feedbackVC animated:YES];
+}
 
 @end
